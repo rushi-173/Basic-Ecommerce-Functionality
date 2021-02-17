@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 300px;
+  border: 2px solid;
+  height: 150px;
+  margin: 0.5rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.product-card img {
+  width: 100px;
+  height: 150px;
+  overflow: hidden;
+}
+.product-card div {
+  width: 200px;
+  height: 160px;
+  overflow: hidden;
+}
